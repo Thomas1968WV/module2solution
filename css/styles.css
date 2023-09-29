@@ -1,0 +1,86 @@
+/*Universal settings for the document*/
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*Settings for the menu headline*/
+
+h1{
+	text-align: center;
+	font-size: 175%;
+	margin-bottom: 15px;
+	width:100%;
+}
+
+
+
+/*Settings for the menu boxes*/
+
+.menu{	
+	background-color: #8e99a3;
+	border: 1px solid black;
+	margin: 10px;
+	height: 200px;
+	float:left;
+	
+}
+
+/*Setting for the menu box label*/
+
+.label{
+	float: right;	
+	border: 1px solid black;
+	width: 200px;
+	padding: 5px;
+	text-align: center;
+	font-size: 125%;
+}
+
+/*Settings for the paragraph inside the menu bux*/
+
+.description{
+	display: inline-block;
+	height: 140px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 100px;
+	overflow-y: hidden;
+}
+
+/*Set with of menu boxes to start*/
+
+.row{
+	width: 100%;
+}
+
+/*Set colors of menu labels*/
+
+#chicken{
+	background-color: #ffe776;
+}
+#beef{
+	background-color: #ff8080;
+}
+#sushi{
+	background-color: #80dfff;
+}
+
+@media(min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+	}
+}
+
